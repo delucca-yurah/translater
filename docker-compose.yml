@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  translater:
+    image: yurah.azurecr.io/kolab-worker-translater:$version
+    environment:
+      - NODE_ENV=production
